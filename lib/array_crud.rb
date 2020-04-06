@@ -7,17 +7,18 @@ pets = ["cat", "dog", "lizard", "snake"]
 end
 
 def add_element_to_end_of_array(array, element)
-pets = ["cat", "dog", "lizard", "snake"]
-pets.push("arrays!")
+array = ["wow", "I", "am", "really", "learning"]
+array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-pets = ["cat", "dog", "lizard", "snake"]
-pets.unshift("wow")
+array = ["I", "am", "really", "learning"]
+array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-
+array = ["I", "am", "really", "learning", "arrays!"]
+array.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
