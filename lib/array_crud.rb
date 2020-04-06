@@ -1,3 +1,4 @@
+
 def create_an_empty_array
   []
 end
@@ -22,7 +23,8 @@ arrays = array.pop
 end
 
 def remove_element_from_start_of_array(array)
-
+["wow", "I", "am", "really", "learning", "arrays!"]
+array.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
