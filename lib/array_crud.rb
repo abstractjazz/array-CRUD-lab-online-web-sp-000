@@ -12,7 +12,8 @@ pets.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-
+pets = ["cat", "dog", "lizard", "snake"]
+pets.shift("arrays!")
 end
 
 def remove_element_from_end_of_array(array)
