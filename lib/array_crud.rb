@@ -23,8 +23,8 @@ arrays = array.pop
 end
 
 def remove_element_from_start_of_array(array)
-["wow", "I", "am", "really", "learning", "arrays!"]
-array.shift("wow")
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+wow = array.unshift
 end
 
 def retrieve_element_from_index(array, index_number)
